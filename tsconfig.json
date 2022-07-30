@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs",
+		"outDir": "./dist",
+		"lib": [
+			"es2019",
+			"dom"
+		]
+	},
+	"include": [
+		"src/**/**/*"
+	]
+}

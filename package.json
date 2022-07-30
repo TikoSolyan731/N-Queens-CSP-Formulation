@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "test": "npx mocha -r ts-node/register src/tests/**/**/*.spec.ts",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/yargs": "^17.0.10",
+    "chai": "^4.3.6",
+    "lodash": "^4.17.21",
+    "mocha": "^10.0.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "ts-node": "^10.9.1"
+  }
+}
